@@ -1,0 +1,20 @@
+[
+  {
+    "keywords": ["NullPointerException", "null reference"],
+    "severity": "High",
+    "cause": "Null reference encountered in code.",
+    "recommendation": "Ensure objects are properly initialized before use."
+  },
+  {
+    "keywords": ["ArrayIndexOutOfBoundsException"],
+    "severity": "Medium",
+    "cause": "Array index accessed beyond bounds.",
+    "recommendation": "Check array indexing logic."
+  },
+  {
+    "keywords": ["Database connection failed", "SQLSyntaxErrorException"],
+    "severity": "Critical",
+    "cause": "Database connection or syntax issue.",
+    "recommendation": "Check database connectivity and query syntax."
+  }
+]

@@ -1,0 +1,16 @@
+@relation impact_prediction
+
+@attribute title_length numeric
+@attribute stacktrace_length numeric
+@attribute user_reports numeric
+@attribute impact numeric
+
+@data
+30,120,1,6.2
+45,300,3,9.5
+20,80,2,5.1
+60,500,4,10.0
+25,100,1,5.5
+35,250,2,8.3
+40,180,1,6.8
+50,400,3,9.0

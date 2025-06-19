@@ -1,0 +1,5 @@
+2025-06-17 12:01:33 ERROR - Database connection failed: timeout
+2025-06-17 12:01:36 ERROR - NullPointerException at com.xyz.Main
+2025-06-17 12:01:36 ERROR - NullPointerException at com.xyz.Main
+2025-06-17 12:02:05 ERROR - Timed out after 30 seconds
+2025-06-17 12:02:10 ERROR - Database connection failed: timeout

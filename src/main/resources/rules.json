@@ -1,0 +1,17 @@
+[
+  {
+    "pattern": "spring.security.authentication.BadCredentialsException",
+    "category": "Authentication Error",
+    "suggestedFix": "Check login credentials and security config."
+  },
+  {
+    "pattern": "java.lang.NullPointerException",
+    "category": "Null Pointer Bug",
+    "suggestedFix": "Add null checks and defensive programming."
+  },
+  {
+    "pattern": "org.springframework.dao.DataAccessException",
+    "category": "Database Access Error",
+    "suggestedFix": "Verify DB config and network connectivity."
+  }
+]

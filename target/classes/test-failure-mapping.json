@@ -1,0 +1,92 @@
+[
+  {
+    "testCase": "LoginPageTest_shouldRedirectToDashboard",
+    "mappedBugId": "BUG-001",
+    "reason": "Static mapping - login flow issue"
+  },
+  {
+    "testCase": "PaymentGatewayTest_shouldHandleTimeout",
+    "mappedBugId": "BUG-003",
+    "reason": "Static mapping - payment timeout"
+  },
+  {
+    "testCase": "CartServiceTest_shouldRemoveItemCorrectly",
+    "mappedBugId": "BUG-004",
+    "reason": "Static mapping - cart issue"
+  },
+  {
+    "testCase": "SearchTest_shouldReturnRelevantResults",
+    "mappedBugId": "BUG-006",
+    "reason": "Static mapping - search logic"
+  },
+  {
+    "testCase": "UserProfileTest_shouldUpdateInfo",
+    "mappedBugId": "BUG-005",
+    "reason": "Static mapping - profile update"
+  },
+  {
+    "keyword": "Login",
+    "mappedBugId": "BUG-102",
+    "reason": "Keyword match - Login"
+  },
+  {
+    "keyword": "Payment",
+    "mappedBugId": "BUG-101",
+    "reason": "Keyword match - Payment"
+  },
+  {
+    "keyword": "Cart",
+    "mappedBugId": "BUG-103",
+    "reason": "Keyword match - Cart"
+  },
+  {
+    "exception": "NullPointerException",
+    "mappedBugId": "BUG-202",
+    "reason": "Null pointer exception"
+  },
+  {
+    "exception": "IndexOutOfBoundsException",
+    "mappedBugId": "BUG-203",
+    "reason": "Index error"
+  },
+  {
+    "exception": "expected:<true> but was:<false>",
+    "mappedBugId": "BUG-201",
+    "reason": "Assertion mismatch"
+  },
+  {
+    "httpCode": "HTTP 500",
+    "mappedBugId": "BUG-301",
+    "reason": "Internal server error"
+  },
+  {
+    "httpCode": "HTTP 403",
+    "mappedBugId": "BUG-302",
+    "reason": "Forbidden"
+  },
+  {
+    "httpCode": "HTTP 404",
+    "mappedBugId": "BUG-303",
+    "reason": "Not Found"
+  },
+  {
+    "infra": "Connection refused",
+    "mappedBugId": "BUG-401",
+    "reason": "Infrastructure - service down"
+  },
+  {
+    "infra": "TimeoutException",
+    "mappedBugId": "BUG-402",
+    "reason": "Infrastructure - timeout"
+  },
+  {
+    "logic": "GST calculation incorrect",
+    "mappedBugId": "BUG-501",
+    "reason": "GST business logic error"
+  },
+  {
+    "logic": "Coupon discount not applied",
+    "mappedBugId": "BUG-503",
+    "reason": "Discount application issue"
+  }
+]

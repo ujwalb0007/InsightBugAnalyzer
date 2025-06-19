@@ -1,0 +1,5 @@
+title,stacktrace,userReports,impact
+Login failed,NullPointerException at Login,3,27
+Payment failed,TimeoutException in Payment,2,24
+DB crash,OutOfMemoryError in DB,1,18
+UI bug,NullPointerException in UI,1,14
